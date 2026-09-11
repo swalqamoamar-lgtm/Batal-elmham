@@ -12,7 +12,6 @@ class BatalApp extends StatelessWidget {
       title: 'بطل المهام',
       theme: ThemeData(useMaterial3: true, textTheme: GoogleFonts.tajawalTextTheme()),
       home: WelcomeScreen(),
-      locale: Locale('ar'),
       builder: (context, child) => Directionality(textDirection: TextDirection.rtl, child: child!),
     );
   }
